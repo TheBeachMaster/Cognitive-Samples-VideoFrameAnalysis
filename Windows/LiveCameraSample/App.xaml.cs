@@ -49,6 +49,13 @@ namespace LiveCameraSample
         private void Application_Exit(object sender, ExitEventArgs e)
         {
             LiveCameraSample.Properties.Settings.Default.Save();
+
+            /*
+             * Saving Keys :
+             * Face : 1ffb7fbde67641be95ddc35a473bfcf1
+             * Vision : c5ce40a514724498bce45acef8ab4605
+             * Emotion : 445c855196864957871484a421680c09
+             */
         }
     }
 }
